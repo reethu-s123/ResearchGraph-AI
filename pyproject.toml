@@ -1,0 +1,23 @@
+python_requires = ">=3.8"
+name = "ResearchGraph-AI"
+version = "1.0.0"
+description = "Scientific Paper Summarization, Citation Linking, and Knowledge Graph Builder"
+author = "Reethu S"
+author_email = "reethushivkumarth@gmail.com"
+url = "https://github.com/reethu-s123/ResearchGraph-AI"
+license = "MIT"
+
+[project]
+keywords = ["research", "papers", "nlp", "citation-analysis", "knowledge-graph", "machine-learning"]
+
+[project.urls]
+Documentation = "https://github.com/reethu-s123/ResearchGraph-AI/blob/main/README.md"
+Repository = "https://github.com/reethu-s123/ResearchGraph-AI"
+Issues = "https://github.com/reethu-s123/ResearchGraph-AI/issues"
+
+[tool.setuptools]
+packages = ["backend", "utils"]
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
